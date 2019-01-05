@@ -279,7 +279,16 @@ global.bruhdash = {
 
   // iterates over elements of a collection and returns all elements that the predicate returns truthy for
   // Note: this should work for arrays and objects
-  filter: function() {
+  filter: function(collection, x) {
+    let newArr = [];
+    for (let key2 in x){
+     for(let key in collection){
+      
+     }
+    }
+
+  
+
 
   },
 
